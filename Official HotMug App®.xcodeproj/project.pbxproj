@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC171AFE1971D610008F5EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171AFD1971D610008F5EF5 /* Foundation.framework */; };
+		EC171B001971D610008F5EF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171AFF1971D610008F5EF5 /* CoreGraphics.framework */; };
+		EC171B021971D610008F5EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171B011971D610008F5EF5 /* UIKit.framework */; };
+		EC171B081971D610008F5EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC171B061971D610008F5EF5 /* InfoPlist.strings */; };
+		EC171B0A1971D610008F5EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC171B091971D610008F5EF5 /* main.m */; };
+		EC171B0E1971D610008F5EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC171B0D1971D610008F5EF5 /* AppDelegate.m */; };
+		EC171B111971D610008F5EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC171B0F1971D610008F5EF5 /* Main.storyboard */; };
+		EC171B141971D610008F5EF5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC171B131971D610008F5EF5 /* FirstViewController.m */; };
+		EC171B171971D610008F5EF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC171B161971D610008F5EF5 /* SecondViewController.m */; };
+		EC171B191971D610008F5EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC171B181971D610008F5EF5 /* Images.xcassets */; };
+		EC171B201971D610008F5EF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171B1F1971D610008F5EF5 /* XCTest.framework */; };
+		EC171B211971D610008F5EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171AFD1971D610008F5EF5 /* Foundation.framework */; };
+		EC171B221971D610008F5EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171B011971D610008F5EF5 /* UIKit.framework */; };
+		EC171B2A1971D610008F5EF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC171B281971D610008F5EF5 /* InfoPlist.strings */; };
+		EC171B2C1971D610008F5EF5 /* Official_HotMug_App_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC171B2B1971D610008F5EF5 /* Official_HotMug_App_Tests.m */; };
+		EC9FD6F7198BEB0600DAFD8F /* DirectionArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9FD6F6198BEB0600DAFD8F /* DirectionArrow.png */; };
+		EC9FD6F9198BEB8700DAFD8F /* DirectionArrowSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9FD6F8198BEB8700DAFD8F /* DirectionArrowSmall.png */; };
+		ECA8D6A2197238A3008012E0 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8D6A1197238A3008012E0 /* MapPin.m */; };
+		ECA8D6A41974DFF3008012E0 /* locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECA8D6A31974DFF3008012E0 /* locations.plist */; };
+		ECA8D6A6197C4CF4008012E0 /* GradientTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8D6A5197C4CF4008012E0 /* GradientTitle.png */; };
+		ECA8D6A8197C50DB008012E0 /* GradientTitleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8D6A7197C50DB008012E0 /* GradientTitleSmall.png */; };
+		ECA8D6AA197C514D008012E0 /* GradientTitleReallySmall.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8D6A9197C514D008012E0 /* GradientTitleReallySmall.png */; };
+		ECA8D6AC197C523F008012E0 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA8D6AB197C523F008012E0 /* TopBar.png */; };
+		ECF15DB2198451140099D6CA /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF15DB1198451140099D6CA /* TableCell.m */; };
+		ECF15DB41984C2060099D6CA /* mugImage.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF15DB31984C2060099D6CA /* mugImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC171B231971D610008F5EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC171AF21971D610008F5EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC171AF91971D610008F5EF5;
+			remoteInfo = "Official HotMug App®";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC171AFA1971D610008F5EF5 /* Official HotMug App®.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Official HotMug App®.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC171AFD1971D610008F5EF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC171AFF1971D610008F5EF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC171B011971D610008F5EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC171B051971D610008F5EF5 /* Official HotMug App®-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Official HotMug App®-Info.plist"; sourceTree = "<group>"; };
+		EC171B071971D610008F5EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC171B091971D610008F5EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC171B0B1971D610008F5EF5 /* Official HotMug App®-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Official HotMug App®-Prefix.pch"; sourceTree = "<group>"; };
+		EC171B0C1971D610008F5EF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC171B0D1971D610008F5EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC171B101971D610008F5EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC171B121971D610008F5EF5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EC171B131971D610008F5EF5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EC171B151971D610008F5EF5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EC171B161971D610008F5EF5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EC171B181971D610008F5EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC171B1E1971D610008F5EF5 /* Official HotMug App®Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Official HotMug App®Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC171B1F1971D610008F5EF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC171B271971D610008F5EF5 /* Official HotMug App®Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Official HotMug App®Tests-Info.plist"; sourceTree = "<group>"; };
+		EC171B291971D610008F5EF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC171B2B1971D610008F5EF5 /* Official_HotMug_App_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Official_HotMug_App_Tests.m; sourceTree = "<group>"; };
+		EC9FD6F6198BEB0600DAFD8F /* DirectionArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirectionArrow.png; sourceTree = "<group>"; };
+		EC9FD6F8198BEB8700DAFD8F /* DirectionArrowSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirectionArrowSmall.png; sourceTree = "<group>"; };
+		ECA8D6A0197238A3008012E0 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		ECA8D6A1197238A3008012E0 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		ECA8D6A31974DFF3008012E0 /* locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = locations.plist; sourceTree = "<group>"; };
+		ECA8D6A5197C4CF4008012E0 /* GradientTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradientTitle.png; sourceTree = "<group>"; };
+		ECA8D6A7197C50DB008012E0 /* GradientTitleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradientTitleSmall.png; sourceTree = "<group>"; };
+		ECA8D6A9197C514D008012E0 /* GradientTitleReallySmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradientTitleReallySmall.png; sourceTree = "<group>"; };
+		ECA8D6AB197C523F008012E0 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBar.png; sourceTree = "<group>"; };
+		ECF15DB0198451140099D6CA /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		ECF15DB1198451140099D6CA /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		ECF15DB31984C2060099D6CA /* mugImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mugImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC171AF71971D610008F5EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC171B001971D610008F5EF5 /* CoreGraphics.framework in Frameworks */,
+				EC171B021971D610008F5EF5 /* UIKit.framework in Frameworks */,
+				EC171AFE1971D610008F5EF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC171B1B1971D610008F5EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC171B201971D610008F5EF5 /* XCTest.framework in Frameworks */,
+				EC171B221971D610008F5EF5 /* UIKit.framework in Frameworks */,
+				EC171B211971D610008F5EF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC171AF11971D610008F5EF5 = {
+			isa = PBXGroup;
+			children = (
+				EC171B031971D610008F5EF5 /* Official HotMug App® */,
+				EC171B251971D610008F5EF5 /* Official HotMug App®Tests */,
+				EC171AFC1971D610008F5EF5 /* Frameworks */,
+				EC171AFB1971D610008F5EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC171AFB1971D610008F5EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC171AFA1971D610008F5EF5 /* Official HotMug App®.app */,
+				EC171B1E1971D610008F5EF5 /* Official HotMug App®Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC171AFC1971D610008F5EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC171AFD1971D610008F5EF5 /* Foundation.framework */,
+				EC171AFF1971D610008F5EF5 /* CoreGraphics.framework */,
+				EC171B011971D610008F5EF5 /* UIKit.framework */,
+				EC171B1F1971D610008F5EF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC171B031971D610008F5EF5 /* Official HotMug App® */ = {
+			isa = PBXGroup;
+			children = (
+				EC171B0C1971D610008F5EF5 /* AppDelegate.h */,
+				EC171B0D1971D610008F5EF5 /* AppDelegate.m */,
+				EC171B0F1971D610008F5EF5 /* Main.storyboard */,
+				EC171B121971D610008F5EF5 /* FirstViewController.h */,
+				EC171B131971D610008F5EF5 /* FirstViewController.m */,
+				ECF15DB0198451140099D6CA /* TableCell.h */,
+				ECF15DB1198451140099D6CA /* TableCell.m */,
+				ECA8D6A0197238A3008012E0 /* MapPin.h */,
+				ECA8D6A1197238A3008012E0 /* MapPin.m */,
+				EC171B151971D610008F5EF5 /* SecondViewController.h */,
+				EC171B161971D610008F5EF5 /* SecondViewController.m */,
+				EC171B181971D610008F5EF5 /* Images.xcassets */,
+				EC171B041971D610008F5EF5 /* Supporting Files */,
+			);
+			path = "Official HotMug App®";
+			sourceTree = "<group>";
+		};
+		EC171B041971D610008F5EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FD6F8198BEB8700DAFD8F /* DirectionArrowSmall.png */,
+				EC9FD6F6198BEB0600DAFD8F /* DirectionArrow.png */,
+				ECF15DB31984C2060099D6CA /* mugImage.png */,
+				ECA8D6AB197C523F008012E0 /* TopBar.png */,
+				ECA8D6A9197C514D008012E0 /* GradientTitleReallySmall.png */,
+				ECA8D6A7197C50DB008012E0 /* GradientTitleSmall.png */,
+				ECA8D6A5197C4CF4008012E0 /* GradientTitle.png */,
+				ECA8D6A31974DFF3008012E0 /* locations.plist */,
+				EC171B051971D610008F5EF5 /* Official HotMug App®-Info.plist */,
+				EC171B061971D610008F5EF5 /* InfoPlist.strings */,
+				EC171B091971D610008F5EF5 /* main.m */,
+				EC171B0B1971D610008F5EF5 /* Official HotMug App®-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC171B251971D610008F5EF5 /* Official HotMug App®Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC171B2B1971D610008F5EF5 /* Official_HotMug_App_Tests.m */,
+				EC171B261971D610008F5EF5 /* Supporting Files */,
+			);
+			path = "Official HotMug App®Tests";
+			sourceTree = "<group>";
+		};
+		EC171B261971D610008F5EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC171B271971D610008F5EF5 /* Official HotMug App®Tests-Info.plist */,
+				EC171B281971D610008F5EF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC171AF91971D610008F5EF5 /* Official HotMug App® */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC171B2F1971D610008F5EF5 /* Build configuration list for PBXNativeTarget "Official HotMug App®" */;
+			buildPhases = (
+				EC171AF61971D610008F5EF5 /* Sources */,
+				EC171AF71971D610008F5EF5 /* Frameworks */,
+				EC171AF81971D610008F5EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Official HotMug App®";
+			productName = "Official HotMug App®";
+			productReference = EC171AFA1971D610008F5EF5 /* Official HotMug App®.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC171B1D1971D610008F5EF5 /* Official HotMug App®Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC171B321971D610008F5EF5 /* Build configuration list for PBXNativeTarget "Official HotMug App®Tests" */;
+			buildPhases = (
+				EC171B1A1971D610008F5EF5 /* Sources */,
+				EC171B1B1971D610008F5EF5 /* Frameworks */,
+				EC171B1C1971D610008F5EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC171B241971D610008F5EF5 /* PBXTargetDependency */,
+			);
+			name = "Official HotMug App®Tests";
+			productName = "Official HotMug App®Tests";
+			productReference = EC171B1E1971D610008F5EF5 /* Official HotMug App®Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC171AF21971D610008F5EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Henry Mound";
+				TargetAttributes = {
+					EC171B1D1971D610008F5EF5 = {
+						TestTargetID = EC171AF91971D610008F5EF5;
+					};
+				};
+			};
+			buildConfigurationList = EC171AF51971D610008F5EF5 /* Build configuration list for PBXProject "Official HotMug App®" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC171AF11971D610008F5EF5;
+			productRefGroup = EC171AFB1971D610008F5EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC171AF91971D610008F5EF5 /* Official HotMug App® */,
+				EC171B1D1971D610008F5EF5 /* Official HotMug App®Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC171AF81971D610008F5EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA8D6A8197C50DB008012E0 /* GradientTitleSmall.png in Resources */,
+				ECA8D6AA197C514D008012E0 /* GradientTitleReallySmall.png in Resources */,
+				ECF15DB41984C2060099D6CA /* mugImage.png in Resources */,
+				EC171B191971D610008F5EF5 /* Images.xcassets in Resources */,
+				EC171B081971D610008F5EF5 /* InfoPlist.strings in Resources */,
+				EC171B111971D610008F5EF5 /* Main.storyboard in Resources */,
+				ECA8D6AC197C523F008012E0 /* TopBar.png in Resources */,
+				ECA8D6A6197C4CF4008012E0 /* GradientTitle.png in Resources */,
+				ECA8D6A41974DFF3008012E0 /* locations.plist in Resources */,
+				EC9FD6F9198BEB8700DAFD8F /* DirectionArrowSmall.png in Resources */,
+				EC9FD6F7198BEB0600DAFD8F /* DirectionArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC171B1C1971D610008F5EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC171B2A1971D610008F5EF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC171AF61971D610008F5EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF15DB2198451140099D6CA /* TableCell.m in Sources */,
+				EC171B171971D610008F5EF5 /* SecondViewController.m in Sources */,
+				ECA8D6A2197238A3008012E0 /* MapPin.m in Sources */,
+				EC171B0E1971D610008F5EF5 /* AppDelegate.m in Sources */,
+				EC171B141971D610008F5EF5 /* FirstViewController.m in Sources */,
+				EC171B0A1971D610008F5EF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC171B1A1971D610008F5EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC171B2C1971D610008F5EF5 /* Official_HotMug_App_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC171B241971D610008F5EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC171AF91971D610008F5EF5 /* Official HotMug App® */;
+			targetProxy = EC171B231971D610008F5EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC171B061971D610008F5EF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC171B071971D610008F5EF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC171B0F1971D610008F5EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC171B101971D610008F5EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC171B281971D610008F5EF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC171B291971D610008F5EF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC171B2D1971D610008F5EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC171B2E1971D610008F5EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC171B301971D610008F5EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Official HotMug App®/Official HotMug App®-Prefix.pch";
+				INFOPLIST_FILE = "Official HotMug App®/Official HotMug App®-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC171B311971D610008F5EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Official HotMug App®/Official HotMug App®-Prefix.pch";
+				INFOPLIST_FILE = "Official HotMug App®/Official HotMug App®-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC171B331971D610008F5EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Official HotMug App®.app/Official HotMug App®";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Official HotMug App®/Official HotMug App®-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Official HotMug App®Tests/Official HotMug App®Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC171B341971D610008F5EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Official HotMug App®.app/Official HotMug App®";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Official HotMug App®/Official HotMug App®-Prefix.pch";
+				INFOPLIST_FILE = "Official HotMug App®Tests/Official HotMug App®Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC171AF51971D610008F5EF5 /* Build configuration list for PBXProject "Official HotMug App®" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC171B2D1971D610008F5EF5 /* Debug */,
+				EC171B2E1971D610008F5EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC171B2F1971D610008F5EF5 /* Build configuration list for PBXNativeTarget "Official HotMug App®" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC171B301971D610008F5EF5 /* Debug */,
+				EC171B311971D610008F5EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC171B321971D610008F5EF5 /* Build configuration list for PBXNativeTarget "Official HotMug App®Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC171B331971D610008F5EF5 /* Debug */,
+				EC171B341971D610008F5EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC171AF21971D610008F5EF5 /* Project object */;
+}

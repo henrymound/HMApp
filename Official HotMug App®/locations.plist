@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>address</key>
+		<string>2882 Broadway, New York, NY 10025</string>
+		<key>name</key>
+		<string>Oren&apos;s Daily Roast</string>
+		<key>x</key>
+		<real>40.805521</real>
+		<key>y</key>
+		<real>-73.965368</real>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>address</key>
+		<string>2878 Broadway, New York, NY 10025</string>
+		<key>name</key>
+		<string>Tea Magic</string>
+		<key>x</key>
+		<real>40.805159</real>
+		<key>y</key>
+		<real>-73.96554399999999</real>
+	</dict>
+</dict>
+</plist>
