@@ -24,5 +24,115 @@
 		<key>y</key>
 		<real>-73.96554399999999</real>
 	</dict>
+	<key>3</key>
+	<dict>
+		<key>address</key>
+		<string>2882 Broadway, New York, NY 10025 </string>
+		<key>name</key>
+		<string>Joe Coffee</string>
+		<key>x</key>
+		<real>40.805574</real>
+		<key>y</key>
+		<real>-73.96529700000001</real>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>address</key>
+		<string>3139 Broadway, New York, NY 10027 </string>
+		<key>name</key>
+		<string>Kuro Kuma Espresso &amp; Coffee</string>
+		<key>x</key>
+		<real>40.814066</real>
+		<key>y</key>
+		<real>-73.959836</real>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>address</key>
+		<string>2194 Frederick Douglass Blvd, New York, NY 10026 </string>
+		<key>name</key>
+		<string>Double Dutch Espresso</string>
+		<key>x</key>
+		<real>40.805831</real>
+		<key>y</key>
+		<real>-73.953964</real>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>address</key>
+		<string>750 Columbus Ave, New York, NY 10025 </string>
+		<key>name</key>
+		<string>Birch Coffee</string>
+		<key>x</key>
+		<real>40.793313</real>
+		<key>y</key>
+		<real>-73.96756600000001</real>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>address</key>
+		<string>60 W 129th St, New York, NY 10027 </string>
+		<key>name</key>
+		<string>Lenox Coffee</string>
+		<key>x</key>
+		<real>40.810018</real>
+		<key>y</key>
+		<real>-73.94327</real>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>address</key>
+		<string>1090 Amsterdam Ave, New York, NY 10025 </string>
+		<key>name</key>
+		<string>Artopolis</string>
+		<key>x</key>
+		<real>40.805483</real>
+		<key>y</key>
+		<real>-73.962509</real>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>address</key>
+		<string>711 Amsterdam Ave, New York, NY 10025 </string>
+		<key>name</key>
+		<string>Sasha’s Coffee</string>
+		<key>x</key>
+		<real>40.792945</real>
+		<key>y</key>
+		<real>-73.970817</real>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>address</key>
+		<string>2167 2nd Ave, New York, NY 10029 </string>
+		<key>name</key>
+		<string>Rise &amp; Grind</string>
+		<key>x</key>
+		<real>40.794143</real>
+		<key>y</key>
+		<real>-73.940067</real>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>address</key>
+		<string>975 Columbus Ave, New York, NY 10025 </string>
+		<key>name</key>
+		<string>Zanny’s Cafe</string>
+		<key>x</key>
+		<real>40.800265</real>
+		<key>y</key>
+		<real>-73.96164400000001</real>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>address</key>
+		<string>404 Lenox Ave, New York, NY 10037 </string>
+		<key>name</key>
+		<string>Astor Row Cafe</string>
+		<key>x</key>
+		<real>40.811039</real>
+		<key>y</key>
+		<real>-73.94296900000001</real>
+	</dict>
 </dict>
 </plist>
