@@ -134,5 +134,104 @@
 		<key>y</key>
 		<real>-73.94296900000001</real>
 	</dict>
+	<key>13</key>
+	<dict>
+		<key>address</key>
+		<string>3A Castlegate York, England</string>
+		<key>name</key>
+		<string>The Nook</string>
+		<key>x</key>
+		<real>53.956666</real>
+		<key>y</key>
+		<real>-1.079814</real>
+	</dict>
+	<key>14</key>
+	<dict>
+		<key>name</key>
+		<string>Coffee Culture</string>
+		<key>address</key>
+		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
+	<key>15</key>
+	<dict>
+		<key>name</key>
+		<string>Brew and Brownie</string>
+		<key>address</key>
+		<string>5 Museum St, York YO1 7DT</string>
+		<key>x</key>
+		<real>53.9610421</real>
+		<key>y</key>
+		<real>-1.0855643</real>
+	</dict>
+	<key>16</key>
+	<dict>
+		<key>name</key>
+		<string>Perky Peacock</string>
+		<key>address</key>
+		<string>Gillygate, York yo31 7EQ, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
+	<key>14 - 4</key>
+	<dict>
+		<key>address</key>
+		<string>Coffee Culture</string>
+		<key>name</key>
+		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
+	<key>14 - 5</key>
+	<dict>
+		<key>address</key>
+		<string>Coffee Culture</string>
+		<key>name</key>
+		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
+	<key>14 - 6</key>
+	<dict>
+		<key>address</key>
+		<string>Coffee Culture</string>
+		<key>name</key>
+		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
+	<key>14 - 7</key>
+	<dict>
+		<key>address</key>
+		<string>Coffee Culture</string>
+		<key>name</key>
+		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
+	<key>14 - 8</key>
+	<dict>
+		<key>address</key>
+		<string>Coffee Culture</string>
+		<key>name</key>
+		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<key>x</key>
+		<real>53.9615738</real>
+		<key>y</key>
+		<real>-1.0798082</real>
+	</dict>
 </dict>
 </plist>
