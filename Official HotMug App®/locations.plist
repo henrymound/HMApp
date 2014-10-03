@@ -178,60 +178,60 @@
 		<key>y</key>
 		<real>-1.0798082</real>
 	</dict>
-	<key>14 - 4</key>
+	<key>17</key>
 	<dict>
 		<key>address</key>
-		<string>Coffee Culture</string>
+		<string>Harlaquin </string>
 		<key>name</key>
-		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<string>2 King&apos;s Square, York, England</string>
 		<key>x</key>
-		<real>53.9615738</real>
+		<real>53.9602621</real>
 		<key>y</key>
-		<real>-1.0798082</real>
+		<real>-1.0809485</real>
 	</dict>
-	<key>14 - 5</key>
+	<key>18</key>
 	<dict>
 		<key>address</key>
-		<string>Coffee Culture</string>
+		<string>Newgate Coffee Bar</string>
 		<key>name</key>
-		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<string>Newgate, York, England</string>
 		<key>x</key>
-		<real>53.9615738</real>
+		<real>53.959506</real>
 		<key>y</key>
-		<real>-1.0798082</real>
+		<real>-1.080855</real>
 	</dict>
-	<key>14 - 6</key>
+	<key>19</key>
 	<dict>
 		<key>address</key>
-		<string>Coffee Culture</string>
+		<string>The Hungry Artist</string>
 		<key>name</key>
-		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<string>7 Church St, York Y01 8BG, England</string>
 		<key>x</key>
-		<real>53.9615738</real>
+		<real>53.9602</real>
 		<key>y</key>
-		<real>-1.0798082</real>
+		<real>-1.080971</real>
 	</dict>
-	<key>14 - 7</key>
+	<key>20</key>
 	<dict>
 		<key>address</key>
-		<string>Coffee Culture</string>
+		<string>YourBike Shed</string>
 		<key>name</key>
-		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<string>150 Micklegate, York YO1 6JX, England</string>
 		<key>x</key>
-		<real>53.9615738</real>
+		<real>53.95607</real>
 		<key>y</key>
-		<real>-1.0798082</real>
+		<real>-1.090806</real>
 	</dict>
-	<key>14 - 8</key>
+	<key>21</key>
 	<dict>
 		<key>address</key>
-		<string>Coffee Culture</string>
+		<string>Cabra Verde</string>
 		<key>name</key>
-		<string>41 Goodramgate, York YO1 7LS, England</string>
+		<string>1 Peter Lane, York YO1 8SW, England</string>
 		<key>x</key>
-		<real>53.9615738</real>
+		<real>53.958438</real>
 		<key>y</key>
-		<real>-1.0798082</real>
+		<real>-1.08223</real>
 	</dict>
 </dict>
 </plist>
