@@ -199,7 +199,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DirectionArrowSmall.png" width="34" height="32"/>
+        <image name="DirectionArrowSmall.png" width="38" height="36"/>
     </resources>
     <color key="tintColor" red="0.63137257099999999" green="0.1176470667" blue="0.090196080509999998" alpha="1" colorSpace="deviceRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
