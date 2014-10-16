@@ -89,7 +89,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.63137257099999999" green="0.1176470667" blue="0.090196080509999998" alpha="1" colorSpace="deviceRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Nearby" image="DirectionArrowSmall.png" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="Nearby" image="justMug6.png" id="u1e-5L-l1D">
+                        <inset key="imageInsets" minX="50" minY="50" maxX="50" maxY="50"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="FindNeabyButton" destination="5GE-hm-Sbk" id="7jL-eF-6eQ"/>
                         <outlet property="MapOrTableView" destination="mMJ-kf-FSz" id="5DO-vZ-H9F"/>
@@ -213,7 +215,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DirectionArrowSmall.png" width="38" height="36"/>
+        <image name="justMug6.png" width="150" height="149"/>
     </resources>
     <color key="tintColor" red="0.63137257099999999" green="0.1176470667" blue="0.090196080509999998" alpha="1" colorSpace="deviceRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
