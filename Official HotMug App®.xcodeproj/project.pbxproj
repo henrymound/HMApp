@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0B7CF019F0EC80005A0EFD /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0B7CEF19F0EC80005A0EFD /* location.png */; };
 		EC171AFE1971D610008F5EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171AFD1971D610008F5EF5 /* Foundation.framework */; };
 		EC171B001971D610008F5EF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171AFF1971D610008F5EF5 /* CoreGraphics.framework */; };
 		EC171B021971D610008F5EF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC171B011971D610008F5EF5 /* UIKit.framework */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0B7CEF19F0EC80005A0EFD /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
 		EC171AFA1971D610008F5EF5 /* Official HotMug App®.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Official HotMug App®.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC171AFD1971D610008F5EF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC171AFF1971D610008F5EF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -163,6 +165,7 @@
 		EC171B041971D610008F5EF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC0B7CEF19F0EC80005A0EFD /* location.png */,
 				EC5DEAF119EF77320009CB40 /* justMug6.png */,
 				EC5DEAEF19EF74540009CB40 /* justMug5.png */,
 				EC5DEAEB19EF705A0009CB40 /* justMug4.png */,
@@ -283,6 +286,7 @@
 				EC5DEAF019EF74540009CB40 /* justMug5.png in Resources */,
 				EC171B191971D610008F5EF5 /* Images.xcassets in Resources */,
 				EC171B081971D610008F5EF5 /* InfoPlist.strings in Resources */,
+				EC0B7CF019F0EC80005A0EFD /* location.png in Resources */,
 				EC171B111971D610008F5EF5 /* Main.storyboard in Resources */,
 				ECA8D6AC197C523F008012E0 /* TopBar.png in Resources */,
 				ECA8D6A6197C4CF4008012E0 /* GradientTitle.png in Resources */,
