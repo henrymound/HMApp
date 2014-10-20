@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>68CE1AEC-3C2E-41A8-9574-72722B3051C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Official HotMug App®</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE0A58888892290DFAD9E15393ACA9FCF4A4BB48</key>
+		<string>https://github.com/henrymound/HMApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Official HotMug App®.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE0A58888892290DFAD9E15393ACA9FCF4A4BB48</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/henrymound/HMApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE0A58888892290DFAD9E15393ACA9FCF4A4BB48</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE0A58888892290DFAD9E15393ACA9FCF4A4BB48</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HMApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
